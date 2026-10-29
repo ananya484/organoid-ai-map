@@ -1,5 +1,7 @@
 # OrganoidAI Map
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23778313.svg)](https://doi.org/10.5281/zenodo.23778313)
+
 A searchable, coded database of every primary study (2018–2026) that applied machine learning to **organoids** or **organs-on-chips**, built for a systematic map of the evidence relevant to regulatory use as a new approach methodology (NAM).
 
 **Browse the database:** https://ananya484.github.io/organoid-ai-map/
@@ -35,6 +37,9 @@ python code/build_browser.py
 
 ## Contribute
 Missed a study, or a code looks wrong? Open an issue with the DOI and the field to change. The database will be updated.
+
+## Cite the database
+Sharma A (2026) OrganoidAI Map: a coded database of machine-learning studies on organoids and organs-on-chips (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23778313
 
 ## Licence
 Data and text: CC BY 4.0. Code: MIT. See `LICENSE`.
