@@ -1,0 +1,51 @@
+{
+ "method_development": {
+  "none_reported": 54,
+  "internal_split_or_cv": 18,
+  "external_dataset": 4,
+  "experimental_prospective": 5,
+  "clinical_outcome": 0
+ },
+ "quality_control": {
+  "none_reported": 14,
+  "internal_split_or_cv": 10,
+  "external_dataset": 3,
+  "experimental_prospective": 1,
+  "clinical_outcome": 0
+ },
+ "disease_modelling": {
+  "none_reported": 37,
+  "internal_split_or_cv": 6,
+  "external_dataset": 1,
+  "experimental_prospective": 4,
+  "clinical_outcome": 0
+ },
+ "toxicity_safety": {
+  "none_reported": 13,
+  "internal_split_or_cv": 3,
+  "external_dataset": 0,
+  "experimental_prospective": 1,
+  "clinical_outcome": 1
+ },
+ "drug_efficacy_screening": {
+  "none_reported": 22,
+  "internal_split_or_cv": 6,
+  "external_dataset": 3,
+  "experimental_prospective": 6,
+  "clinical_outcome": 1
+ },
+ "device_or_protocol_design": {
+  "none_reported": 9,
+  "internal_split_or_cv": 1,
+  "external_dataset": 1,
+  "experimental_prospective": 2,
+  "clinical_outcome": 0
+ },
+ "personalised_medicine": {
+  "none_reported": 10,
+  "internal_split_or_cv": 1,
+  "external_dataset": 3,
+  "experimental_prospective": 0,
+  "clinical_outcome": 6
+ }
+}

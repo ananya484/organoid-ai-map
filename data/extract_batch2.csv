@@ -1,0 +1,96 @@
+id,include,exclude_reason,system,tissue,tumour,patient_derived,data_type,ai_task,ai_family,application,validation,human_relevance_benchmark,n_samples,open_code_or_data,regulatory_mention,notes
+PPR269088,yes,,organoid,lung,no,no,transcriptomics,omics_analysis,other_deep;transformer_or_foundation,disease_modelling,none_reported,none,unclear,unclear,no,GNN on scRNA of infected lung organoids and BAL
+PPR1161252,yes,,organoid,breast,yes,yes,other_image,drug_response_prediction,unclear,personalised_medicine,none_reported,none,63 patients,unclear,no,DL on histology; labels from organoid platinum sensitivity; weak
+41338189,yes,,organoid,other,no,unclear,brightfield_image,segmentation_detection,cnn,quality_control,none_reported,none,unclear,yes,no,OSCAR Mask-RCNN plus regression cell number
+36010942,no,no_organoid_or_chip,,,,,,,,,,,,,,organoid use unclear; drug sensitivity DNN on cell lines
+36350878,yes,,organoid,multi,yes,unclear,brightfield_image,segmentation_detection;tracking_timelapse,unclear,drug_efficacy_screening,external_dataset,none,unclear,unclear,no,OrganoID; validated on other organoid types
+31872998,no,not_primary,,,,,,,,,,,,,,viewpoint
+32376840,yes,,organ_on_chip,breast,yes,no,other,tracking_timelapse,cnn,drug_efficacy_screening,none_reported,none,unclear,unclear,no,DL on cell trajectories; OoC one of two scenarios
+42879314,yes,,organoid,tumour_other,yes,yes,drug_response_values,drug_response_prediction,transformer_or_foundation,drug_efficacy_screening,external_dataset,none,unclear,unclear,no,VCAT; PDO data only an external test set; weak
+42707599,yes,,organoid,multi,yes,yes,fluorescence_image,tracking_timelapse,unclear,personalised_medicine,none_reported,none,unclear,unclear,no,"computer vision on organoid live imaging; weak, mixed review/primary"
+PPR827046,no,other,,,,,,,,,,,,,,ML on databases; organoids only validation
+40997949,no,no_ai,,,,,,,,,,,,,,"NVU chip, no AI"
+PPR1161654,no,not_primary,,,,,,,,,,,,,,review
+PPR1298922,yes,,organoid,intestine_colon,no,unclear,other,segmentation_detection,cnn;transformer_or_foundation,method_development,none_reported,none,unclear,unclear,no,commercial cloud segmentation platform; 2 organoid examples; weak
+36653674,no,no_ai,,,,,,,,,,,,,,"BD cortical spheroids, no ML"
+34498298,no,not_primary,,,,,,,,,,,,,,perspective
+IND609406009,no,not_primary,,,,,,,,,,,,,,review
+38451475,yes,,organoid,tumour_other,yes,yes,other_omics,omics_analysis,classical_ml,disease_modelling,none_reported,none,23 organoid lines,yes,no,NET PDTO dataset; random forest variant caller on RNA-seq
+35794686,yes,,organoid,kidney,no,unclear,other,toxicity_prediction,unclear,toxicity_safety,none_reported,none,unclear,unclear,no,read-on-ski imaging; ML classifies cisplatin toxicity
+41002848,yes,,organoid,other,no,no,brightfield_image,segmentation_detection,cnn,method_development,external_dataset,none,unclear,unclear,no,IDP-Head detector; mouse organoids; public benchmarks
+PPR1336295,yes,,organoid,other,no,no,brightfield_image,morphology_classification,transformer_or_foundation;cnn,quality_control,internal_split_or_cv,none,1500 images,unclear,no,hypothalamic-pituitary organoid differentiation quality
+PPR257928,yes,,organoid,heart,no,unclear,transcriptomics,omics_analysis,unclear,disease_modelling,none_reported,none,unclear,unclear,no,ML label transfer for heart organoid scRNA
+42236584,yes,,organoid,tumour_other,yes,yes,other_image,segmentation_detection,other_deep,drug_efficacy_screening,none_reported,none,93 volumes,unclear,no,DICE-2DSeg OCT PDO segmentation
+40276485,no,not_primary,,,,,,,,,,,,,,review
+42906583,yes,,organoid_on_chip,brain,no,no,other,morphology_classification,unclear;classical_ml,quality_control;toxicity_safety,none_reported,none,unclear,unclear,no,DL-automated QC plus decision tree for neurotoxicity
+41035113,no,other,,,,,,,,,,,,,,ML on serum metabolites; organoids only mechanism
+42721440,yes,,organoid,multi,no,unclear,transcriptomics,generative_or_llm,llm;transformer_or_foundation,method_development,none_reported,none,six scRNA datasets,unclear,no,LLM agent for scRNA; organoid one benchmark; weak
+PPR1342994,yes,,organoid,multi,no,unclear,other_omics,omics_analysis,classical_ml,method_development,none_reported,none,unclear,unclear,no,DNAm differentiation predictor; organoid validation minor; weak
+41310859,no,no_organoid_or_chip,,,,,,,,,,,,,,"in silico, no organoid"
+41634803,yes,,organoid,pancreas,yes,no,transcriptomics,omics_analysis,classical_ml,disease_modelling,none_reported,none,unclear,unclear,no,hPSC pancreatic duct organoids KRAS; ML classifiers
+42898427,no,no_organoid_or_chip,,,,,,,,,,,,,,variant prediction tools; organoid data only expression
+41301171,yes,,organoid,other,no,unclear,brightfield_image,segmentation_detection,cnn,method_development,none_reported,none,unclear,unclear,no,enhanced U-Net
+41634507,no,no_ai,,,,,,,,,,,,,,"clearance chip, ML only motivation"
+PPR1287408,yes,,organoid,multi,no,unclear,transcriptomics,omics_analysis,classical_ml,method_development,none_reported,none,5 atlases,unclear,no,annotation quality tool; two organoid atlases; weak
+38193617,yes,,organ_on_chip,vascular,no,no,brightfield_image,generative_or_llm,other_deep,drug_efficacy_screening,none_reported,none,unclear,unclear,no,Angio-Net virtual staining in angiogenesis MPS
+PMC10260024,no,not_primary,,,,,,,,,,,,,,conference abstract
+38026689,no,no_ai,,,,,,,,,,,,,,"3D MEA analysis pipeline, ML not stated"
+PPR1091234,no,no_organoid_or_chip,,,,,,,,,,,,,,transwell colonoid-derived monolayer; unsure
+PPR984103,yes,,organoid,pancreas,yes,unclear,other_omics,omics_analysis,unclear,disease_modelling,none_reported,none,unclear,unclear,no,preprint duplicate of 40559993; weak
+PPR1320339,yes,,organoid,brain,no,unclear,other,segmentation_detection,unclear,method_development,none_reported,none,unclear,unclear,no,Kaggle brain organoid images; classical plus DL; weak
+35559665,yes,,organoid,intestine_colon,no,no,multimodal,other,cnn,disease_modelling,none_reported,none,unclear,unclear,no,CNN organoid image analysis within immunology study
+PPR1246038,yes,,organoid,multi,no,unclear,brightfield_image,morphology_classification,transformer_or_foundation,quality_control,none_reported,none,34 organoid categories,yes,no,"ViTAMIn-O foundation model, open"
+39971122,no,other,,,,,,,,,,,,,,ML on published dataset; organoids only validation
+41854974,no,other,,,,,,,,,,,,,,ML on TCGA; no organoid experiments
+PPR1036927,no,not_primary,,,,,,,,,,,,,,review
+PPR541300,yes,,organoid,multi,yes,unclear,other,segmentation_detection,unclear,method_development,external_dataset,none,unclear,unclear,no,GOAT; multicentre multi-system organoid dataset
+39583683,yes,,organoid,brain,no,unclear,other,segmentation_detection,cnn,method_development,none_reported,none,unclear,unclear,no,OrganoLabeler; embryoid body and brain organoid
+40850807,no,not_primary,,,,,,,,,,,,,,review
+39195562,no,not_primary,,,,,,,,,,,,,,review
+40499006,yes,,organoid,intestine_colon,yes,yes,multimodal,omics_analysis,unclear,disease_modelling,none_reported,none,unclear,unclear,no,CRC PDO drug resistance; ML one component
+41495164,no,no_organoid_or_chip,,,,,,,,,,,,,,prostate single-cell cohorts
+40737392,yes,,organoid_on_chip,tumour_other,yes,yes,drug_response_values,system_design_optimisation,unclear,drug_efficacy_screening,experimental_prospective,none,unclear,unclear,no,ML-guided multidrug regimens on spheroid/PDO arrays
+36160045,yes,,organoid,brain,no,unclear,other,morphology_classification,unclear,drug_efficacy_screening,none_reported,none,unclear,unclear,no,HD micropattern organoids DL phenotypic screen
+41604479,no,no_organoid_or_chip,,,,,,,,,,,,,,ML microfluidic circuit design tool; unsure
+PPR726047,no,other,,,,,,,,,,,,,,ML on transcriptomic networks; PDOs validation
+41826721,no,no_organoid_or_chip,,,,,,,,,,,,,,nanofluid ANN simulation
+35805961,yes,,organoid,tumour_other,yes,yes,other,signal_analysis,other_deep,drug_efficacy_screening,none_reported,none,unclear,unclear,no,bladder cancer organoids Raman/FLIM; NN classification
+PPR836838,no,other,,,,,,,,,,,,,,SVM score on public data; organoids validation
+41641362,yes,,organoid,other,yes,no,transcriptomics,omics_analysis,classical_ml,disease_modelling,none_reported,none,unclear,unclear,no,ESCC; ML trajectory on mouse and organoid scRNA; weak
+41304521,no,other,,,,,,,,,,,,,,ML on QD literature data; brain organoid only validation; unsure
+42199099,no,not_primary,,,,,,,,,,,,,,review
+37634014,yes,,organoid,liver,yes,yes,other,morphology_classification,cnn,method_development,internal_split_or_cv,none,75000 cells,unclear,no,images of organoid-derived dissociated cells; unseen-patient test; weak
+PPR898070,yes,,organoid,brain,no,yes,electrophysiology,signal_analysis,classical_ml,disease_modelling,none_reported,none,24 subjects,unclear,no,SVM on MEA of SCZ/BPD organoids; reused data
+39693688,yes,,organoid,brain,yes,yes,fluorescence_image,segmentation_detection,cnn,method_development,none_reported,none,30 images,unclear,no,PAC-MAP 3D U-net; spheroids and cerebral organoids
+41575851,no,other,,,,,,,,,,,,,,DL for microscopy of cell lines; PDOs viability only
+PPR1309366,no,not_primary,,,,,,,,,,,,,,review
+32976764,no,no_ai,,,,,,,,,,,,,,"CO electrophysiology maturation, no ML"
+42574504,no,no_ai,,,,,,,,,,,,,,"Fourier shape transform, no ML"
+40013867,no,other,,,,,,,,,,,,,,ML on patient plasma; organoids only functional assay
+33815693,no,other,,,,,,,,,,,,,,"in silico DeepNEU simulation, no wet-lab organoid"
+PPR1286011,no,other,,,,,,,,,,,,,,"bibliometric analysis, not organoid experiment"
+39757474,no,no_ai,,,,,,,,,,,,,,"PFD MEA method, no ML"
+41225774,no,no_ai,,,,,,,,,,,,,,Nanostring assay; no new ML
+41692956,yes,,organ_on_chip,bone_cartilage,no,unclear,other,other,classical_ml,method_development,internal_split_or_cv,none,unclear,yes,no,AutoFlow flow cytometry ML; bone marrow MPS dataset
+40673775,no,not_primary,,,,,,,,,,,,,,reporting guidance
+41165838,no,no_ai,,,,,,,,,,,,,,"rat neural tissue co-culture, no ML"
+38697102,yes,,organoid,intestine_colon,no,yes,other,other,unclear,method_development,none_reported,none,unclear,unclear,no,prime editing CF; ML tool DETECTOR quantifies CFTR function
+PPR1113557,no,not_primary,,,,,,,,,,,,,,review
+41145641,yes,,organoid,reproductive,yes,unclear,other,system_design_optimisation,other_deep,device_or_protocol_design,experimental_prospective,none,unclear,unclear,no,AlphaFold-predicted peptide hydrogel for endometrial organoids; weak
+PPR1228474,no,other,,,,,,,,,,,,,,DL promoter design; organoids only activity check
+PPR1311174,no,other,,,,,,,,,,,,,,ML on prenatal skin; skin organoid validation
+PPR1126718,no,no_organoid_or_chip,,,,,,,,,,,,,,AI on molecules; bioprinted spheroids
+PPR1010731,yes,,organoid,brain,no,yes,electrophysiology,signal_analysis,classical_ml,disease_modelling,none_reported,none,15 individuals,unclear,no,ASD brain organoids; PCA/ML on electrophysiology; weak
+36134663,no,other,,,,,,,,,,,,,,AI network on public data; organoid validation
+40509616,yes,,organoid,retina,no,unclear,fluorescence_image,segmentation_detection,unclear,method_development,none_reported,none,unclear,unclear,no,AAV transduction quantification by DL segmentation
+36328994,yes,,organoid,kidney,no,no,brightfield_image,morphology_classification,cnn,quality_control,internal_split_or_cv,none,unclear,unclear,no,DenseNet121 predicts differentiation; beat human experts
+30123820,yes,,organoid,intestine_colon,no,unclear,other,segmentation_detection,unclear,device_or_protocol_design,none_reported,none,unclear,unclear,no,microinjection platform with computer vision; weak
+30440885,yes,,organoid,intestine_colon,yes,yes,transcriptomics,omics_analysis,classical_ml,drug_efficacy_screening,none_reported,none,unclear,unclear,no,scRNA of CRC organoids; ML clustering
+IND608907977,no,not_primary,,,,,,,,,,,,,,review
+PPR965653,no,other,,,,,,,,,,,,,,neural net on patient tissue; organ-chip without AI
+31950986,no,no_ai,,,,,,,,,,,,,,"active surface segmentation, not ML"
+37417294,yes,,organoid,stomach,yes,yes,other,segmentation_detection,cnn,quality_control,none_reported,none,55 organoids from 35 individuals,unclear,no,CBAM-YOLOv3 senescence of gastric organoids
+40838019,yes,,organoid,other,no,unclear,transcriptomics,omics_analysis,classical_ml,method_development,none_reported,none,unclear,unclear,no,cPredictor cornea; corneal organoid compared; weak
+41535933,no,other,,,,,,,,,,,,,,ML on human CRC scRNA; no organoid
+38724294,no,no_organoid_or_chip,,,,,,,,,,,,,,microscope motion control
+PPR1064538,no,other,,,,,,,,,,,,,,DL on patient histology; PDOs mechanistic

@@ -1,0 +1,41 @@
+{
+ "sample_n": 60,
+ "reviews_total": 541,
+ "counts_A": {
+  "off_topic": 32,
+  "not_a_review": 3,
+  "partial": 19,
+  "core": 6
+ },
+ "counts_B": {
+  "off_topic": 34,
+  "not_a_review": 2,
+  "partial": 18,
+  "core": 6
+ },
+ "agreement_4class_pct": 83.3,
+ "kappa_4class": 0.72,
+ "agreement_ontopic_pct": 85.0,
+ "kappa_ontopic": 0.69,
+ "ontopic_both": 20,
+ "ontopic_either": 29,
+ "core_both": 5,
+ "pct_ontopic_both": 33.3,
+ "pct_ontopic_either": 48.3,
+ "est_ontopic_reviews_low": 180,
+ "est_ontopic_reviews_high": 261,
+ "est_ontopic_ci": [
+  123,
+  328
+ ],
+ "pct_core_both": 8.3,
+ "est_core_reviews": 45,
+ "est_core_ci": [
+  20,
+  98
+ ],
+ "pct_offtopic_A": 53.3,
+ "pct_offtopic_B": 56.7,
+ "ratio_ontopic_reviews_per_study_low": 0.73,
+ "ratio_ontopic_reviews_per_study_high": 1.07
+}

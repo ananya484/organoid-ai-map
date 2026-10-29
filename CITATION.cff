@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this database, please cite it as below."
+title: "OrganoidAI Map: a coded database of machine-learning studies on organoids and organs-on-chips"
+authors:
+  - family-names: Sharma
+    given-names: Ananya
+    orcid: "https://orcid.org/0009-0001-3081-7199"
+    affiliation: "MIT School of Bioengineering Sciences and Research, MIT Art, Design and Technology University, Pune, India"
+version: "1.0.0"
+date-released: 2026-10-30
+license: CC-BY-4.0
+keywords:
+  - organoids
+  - organs-on-chips
+  - machine learning
+  - new approach methodologies
+  - systematic map

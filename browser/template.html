@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OrganoidAI Map</title>
+<meta name="description" content="Searchable systematic map of machine-learning studies on organoids and organs-on-chips, coded for validation and regulatory relevance.">
+<style>
+:root{--bg:#fbfbfa;--fg:#1d1d1f;--mut:#5f6368;--card:#fff;--line:#deded9;--acc:#0072B2;--hot:#D55E00}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141416;--fg:#ececec;--mut:#a0a0a8;--card:#1d1d21;--line:#34343a;--acc:#56B4E9;--hot:#E69F00}}
+:root[data-theme="dark"]{--bg:#141416;--fg:#ececec;--mut:#a0a0a8;--card:#1d1d21;--line:#34343a;--acc:#56B4E9;--hot:#E69F00}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.5rem;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 16px;max-width:780px}
+.bar{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:8px;margin-bottom:12px}
+@media (max-width:760px){.bar{grid-template-columns:1fr 1fr}.bar input{grid-column:1/-1}}
+input,select{width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:7px;background:var(--card);color:var(--fg);font:inherit;font-size:.9rem}
+.count{color:var(--mut);font-size:.88rem;margin:4px 0 10px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:10px 12px;margin-bottom:8px}
+.item a{color:var(--acc);text-decoration:none;font-weight:600}.item a:hover{text-decoration:underline}
+.meta{color:var(--mut);font-size:.84rem;margin-top:2px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.tag{font-size:.75rem;border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--mut)}
+.tag.v{border-color:var(--hot);color:var(--hot)}
+.foot{font-size:.84rem;color:var(--mut);margin-top:20px}
+</style>
+</head>
+<body>
+<main>
+<h1>OrganoidAI Map</h1>
+<p class="sub">Every primary study (2018–2026) that applied machine learning to organoids or organs-on-chips, from a systematic Europe PMC search, coded for task, application, validation and comparison with in vivo outcomes. Codes are from abstracts and may contain errors; corrections welcome.</p>
+<div class="bar">
+  <input id="q" type="search" placeholder="Search title, author, journal…" aria-label="Search">
+  <select id="fs" aria-label="System"><option value="">All systems</option></select>
+  <select id="fa" aria-label="Application"><option value="">All applications</option></select>
+  <select id="fv" aria-label="Validation"><option value="">Any validation</option></select>
+  <select id="fb" aria-label="In vivo benchmark"><option value="">Any in vivo comparison</option></select>
+</div>
+<div class="count" id="count"></div>
+<div id="list"></div>
+<p class="foot"><b>Cite:</b> Sharma A (2026) Reviews outnumber studies: a systematic map of artificial intelligence applied to organoids and organs-on-chips, and the evidence a regulator would need. Preprint.</p>
+</main>
+<script>/*__DATA__*/</script>
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const nice = s => s.replace(/_/g,' ');
+  const split = s => (s||'').split(';').map(x=>x.trim()).filter(Boolean);
+  function fill(sel, field){ const set = new Set(); DATA.forEach(d => split(d[field]).forEach(v => set.add(v)));
+    [...set].sort().forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = nice(v); sel.appendChild(o); }); }
+  fill($('fs'),'system'); fill($('fa'),'application'); fill($('fv'),'validation'); fill($('fb'),'human_relevance_benchmark');
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function render(){
+    const q = $('q').value.toLowerCase();
+    const f = [['system',$('fs').value],['application',$('fa').value],['validation',$('fv').value],['human_relevance_benchmark',$('fb').value]];
+    const out = DATA.filter(d => (!q || (d.title+' '+d.first_author+' '+d.journal).toLowerCase().includes(q)) &&
+      f.every(([k,v]) => !v || split(d[k]).includes(v)));
+    $('count').textContent = out.length + ' of ' + DATA.length + ' studies';
+    $('list').innerHTML = out.map(d => {
+      const t = d.title.replace(/<[^>]+>/g,'');
+      const link = d.doi ? '<a href="https://doi.org/'+esc(d.doi)+'" target="_blank" rel="noopener">'+esc(t)+'</a>' : '<b>'+esc(t)+'</b>';
+      const tags = [d.system, d.tissue, d.ai_task, d.application].flatMap(split).map(x=>'<span class="tag">'+esc(nice(x))+'</span>').join('') +
+        '<span class="tag v">validation: '+esc(nice(d.validation||'none'))+'</span>' +
+        (d.human_relevance_benchmark && d.human_relevance_benchmark!=='none' ? '<span class="tag v">in vivo: '+esc(d.human_relevance_benchmark)+'</span>' : '');
+      return '<div class="item">'+link+'<div class="meta">'+esc(d.first_author)+' · '+esc(d.year)+' · '+esc(d.journal||'')+(d.preprint==='yes'?' · preprint':'')+'</div><div class="tags">'+tags+'</div></div>';
+    }).join('');
+  }
+  ['q','fs','fa','fv','fb'].forEach(i => $(i).addEventListener('input', render));
+  render();
+})();
+</script>
+</body>
+</html>

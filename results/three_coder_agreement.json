@@ -1,0 +1,18 @@
+{
+ "n": 60,
+ "opus_vs_sonnet1_include_pct": 96.7,
+ "opus_vs_sonnet1_include_kappa": 0.93,
+ "opus_vs_sonnet1_both_included": 24,
+ "opus_vs_sonnet1_validation_pct": 83.3,
+ "opus_vs_sonnet1_validation_kappa": 0.6,
+ "opus_vs_sonnet2_include_pct": 100.0,
+ "opus_vs_sonnet2_include_kappa": 1.0,
+ "opus_vs_sonnet2_both_included": 25,
+ "opus_vs_sonnet2_validation_pct": 100.0,
+ "opus_vs_sonnet2_validation_kappa": 1.0,
+ "fleiss_include_3coders": 0.95,
+ "unanimous_include_pct": 96.7,
+ "all3_included": 24,
+ "fleiss_validation_3coders": 0.72,
+ "opus_included": 25
+}
