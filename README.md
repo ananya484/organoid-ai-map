@@ -6,7 +6,7 @@ A searchable, coded database of every primary study (2018–2026) that applied m
 
 **Browse the database:** https://ananya484.github.io/organoid-ai-map/
 
-> Sharma A (2026) A review for almost every study: a systematic map of artificial intelligence applied to organoids and organs-on-chips, and the evidence a regulator would need. Preprint. *(DOI to be added)*
+> Sharma A (2026) OrganoidAI Map: a systematic map and coded database of machine-learning studies on organoids and organs-on-chips. Preprint. *(DOI to be added)*
 
 ## What is here
 | Path | Contents |
