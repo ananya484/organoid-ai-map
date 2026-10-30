@@ -1,0 +1,42 @@
+{
+ "hits": 1752,
+ "in_europe_pmc": 1058,
+ "review_pubtype": 271,
+ "no_abstract": 73,
+ "screened": 350,
+ "included_raw": 113,
+ "same_as_map": 7,
+ "same_as_s2": 1,
+ "new_studies": 105,
+ "excluded": {
+  "not_primary": 86,
+  "no_ai": 85,
+  "other": 22,
+  "no_organoid_or_chip": 33,
+  "organoid_intelligence_computing": 11
+ },
+ "kind": {
+  "journal_article": 31,
+  "meeting_abstract": 48,
+  "conference_paper": 16,
+  "arxiv": 7,
+  "preprint": 3
+ },
+ "peer_reviewed_full": 47,
+ "chip": 12,
+ "pct_chip": 11.4,
+ "tox": 0,
+ "pct_tox": 0.0,
+ "none": 53,
+ "pct_none": 50.5,
+ "beyond": 18,
+ "pct_beyond": 17.1,
+ "in_vivo": 5,
+ "animal": 1,
+ "pct_in_vivo": 4.8,
+ "regulatory": 3,
+ "combined_n": 350,
+ "combined_beyond": 60,
+ "combined_pct_beyond": 17.1,
+ "pct_of_combined_new": 30.0
+}

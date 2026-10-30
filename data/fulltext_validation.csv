@@ -1,0 +1,128 @@
+pmcid,first_author,year,abstract_validation,validation_ft,human_relevance_benchmark_ft,unit_independence,ft_notes,second_coder_validation_ft
+PMC10014309,He,2023,experimental_prospective,experimental_prospective,none,unclear,Alignment framework; hub genes validated by immunofluorescence; no held-out ML test,
+PMC10060271,Deben,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,CNN counts correlated with Hoechst; no explicit held-out split; excerpt limited,none_reported
+PMC10130530,Bao,2023,none_reported,internal_split_or_cv,none,unclear,Six-fold CV on 24 OCT volumes from 10 samples; split unit unclear,
+PMC10164950,Zhang,2023,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Segmentation metrics on 200-image dataset; split details not shown,
+PMC10183373,Smith,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,3D U-Net trained on three frames; tested on same movie; metrics limited,
+PMC10244450,Tebon,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,U-Net trained on 100 labeled frames; Jaccard 0.897; held-out split unclear,
+PMC10359941,Camacho-Gomez,2023,none_reported,none_reported,none,unclear,hybrid ABM plus NN fitted to image metrics; no held-out evaluation described,
+PMC10460430,Piansaddhayanon,2023,internal_split_or_cv,internal_split_or_cv,none,donor_or_patient,Held-out test images from patients; generalizes to unseen patient; same lab,internal_split_or_cv
+PMC10465177,Brémond-Martin,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,Segmentation accuracy with synthetic augmentation on 40-image dataset; excerpt limited,
+PMC10466441,Yang,2023,none_reported,none_reported,none,unclear,CBAM-YOLOv3 correlated with SA-b-Gal; no held-out split in excerpts; conservative,none_reported
+PMC10603975,Brémond Martin,2023,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Leave-one-out on 40 original bright-field images vs manual segmentation,
+PMC10611258,Matsuda,2023,none_reported,internal_split_or_cv,none,compound,"AI trained on oxaliplatin/DMSO/sucrose; validated on other held-out compounds, same lab",
+PMC10631711,Dirk,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,"80/10/10 split of simulated colonies; real data only applied, no labels",
+PMC10646080,Park,2023,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,15/5/10 image split; DSC 0.853; CV across two organoid lines,
+PMC10709344,Le Compte,2023,clinical_outcome,clinical_outcome,clinical,unclear,organoid drug response compared with matched patient PFS; 8 patients,
+PMC10721831,Zhao,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,Tested on identical held-out dataset vs GAN baselines; same lab,
+PMC10730814,Mukashyaka,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,six-fold CV of Stardist nuclei segmentation; organoid counts vs manual,
+PMC10733327,Fujimura,2023,none_reported,internal_split_or_cv,none,image_or_organoid_only,84/6/6 organoids train/val/test; no organoid shared across sets,
+PMC10788980,Shahir,2024,none_reported,internal_split_or_cv,none,image_or_organoid_only,Semi-supervised GCN with held-out nodes; benchmarked on public datasets; split details thin,
+PMC10919335,Alcala,2024,none_reported,none_reported,none,unclear,Random forest variant caller mentioned; no evaluation in excerpts,
+PMC11144550,Yu,2024,none_reported,none_reported,none,unclear,Faster-RCNN and VGG used; no accuracy metrics reported,none_reported
+PMC11148721,Bulcaen,2024,none_reported,none_reported,none,unclear,DETECTOR ML tool; no quantitative model evaluation in excerpts,
+PMC11161340,Wang,2024,none_reported,internal_split_or_cv,none,image_or_organoid_only,OrgSegNet segmentation of OCT organoids; excerpts lack test details; conservative,none_reported
+PMC11169470,Malepathirana,2024,none_reported,none_reported,none,unclear,Visualization method; simulated data only; no held-out quantitative evaluation of model,
+PMC11228370,Kowalczewski,2024,none_reported,none_reported,none,unclear,Unsupervised manifold learning/clustering of 230 organoids; no predictive validation,
+PMC11228957,Gonzalez-Ferrer,2024,internal_split_or_cv,internal_split_or_cv,none,unclear,5-fold CV benchmark on public scRNA datasets; cross-donor split not shown,internal_split_or_cv
+PMC11324155,Gunnarsson,2024,none_reported,internal_split_or_cv,none,image_or_organoid_only,U-Net live/dead trained on one line with validation images; no external test shown,none_reported
+PMC11347221,Dennison,2024,none_reported,clinical_outcome,clinical,donor_or_patient,ML epigenetic signature prognostic of Crohn's disease phenotype/outcome in 168 patients,
+PMC11379467,Ma,2024,external_dataset,internal_split_or_cv,none,unclear,AUROC benchmarking across stages/tissues; split not in excerpts; AD case-control small,
+PMC11445485,Takagi,2024,none_reported,internal_split_or_cv,none,unclear,image-to-gene regression correlation 0.78; repeated training; split details unclear,none_reported
+PMC11508207,Rezapour,2024,internal_split_or_cv,internal_split_or_cv,none,unclear,3-fold CV on 3 samples per condition; reanalysis of GSE219036,
+PMC11513879,Bar-Hai,2024,none_reported,none_reported,none,unclear,Deep learning image quantification used; no accuracy or held-out evaluation in excerpts,none_reported
+PMC11573902,Song,2024,internal_split_or_cv,external_dataset,none,image_or_organoid_only,Trained on synthetic virtual organoids; tested on 10 real organoid z-stacks,
+PMC11579745,Kahveci,2024,none_reported,internal_split_or_cv,none,image_or_organoid_only,U-Net 80/20 split and 5-fold CV vs manual segmentation,internal_split_or_cv
+PMC11598741,Han,2024,none_reported,internal_split_or_cv,clinical,compound,Trained on vincristine/oxaliplatin; other drugs tested; NfL agrees with clinical reports,internal_split_or_cv
+PMC11624204,Asano,2024,none_reported,experimental_prospective,none,batch_or_lab,"model applied to different KhES-1 line; predicted classes cultured, ACTH measured",
+PMC11675036,Chen,2024,none_reported,internal_split_or_cv,none,image_or_organoid_only,5-fold CV of CNNs on day-3 images; no external set,
+PMC11814327,Sun,2025,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,YOLOv8-based detector mAP50 87.5% on organoid image dataset,internal_split_or_cv
+PMC11828867,Riendeau,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,Cellpose model vs manual masks on PDCOs (9 patients) and PANC-1; trained on crops,
+PMC11850476,Ferreira,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,Deep learning checked against CellTiter-Glo; held-out split not shown; conservative,none_reported
+PMC11912127,Bruno,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,70/30 split plus k-fold CV; 93.68% accuracy; same organoid batches,
+PMC11945015,Kutsuzawa,2025,none_reported,none_reported,none,unclear,convert.ai trained on six image sets; no quantitative evaluation reported,
+PMC12120697,Shin,2025,internal_split_or_cv,none_reported,none,unclear,Five ML algorithms compared; train/test split not shown in excerpts (conservative),internal_split_or_cv
+PMC12145446,Tan,2025,internal_split_or_cv,internal_split_or_cv,clinical,unclear,"30 compounds, accuracy 82.34%; split unstated; labels from clinical DILIrank",
+PMC12177710,Ortega Quesada,2025,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,K-means plus classifiers on Ki67 clusters; split details missing; conservative,
+PMC12196815,Resell,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,5-fold CV regressing network topology on node degree; not biological prediction,
+PMC12309667,Yakavets,2025,experimental_prospective,experimental_prospective,none,compound,Gryffin-proposed drug regimens tested in new spheroid/PDO experiments iteratively,
+PMC12314525,Oliveira,2025,none_reported,none_reported,none,unclear,ML used for analysis; no held-out evaluation in excerpts,
+PMC12350944,Zhou,2025,clinical_outcome,clinical_outcome,clinical,donor_or_patient,TCGA survival HRs by predicted response; four independent CRC 5-FU cohorts,
+PMC12363670,Arts,2025,none_reported,experimental_prospective,none,unclear,cPredictor annotation; novel markers validated by immunohistochemistry; split details absent,internal_split_or_cv
+PMC12456967,Cheng,2025,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,10-fold CV SVM on MEA recordings; samples not donor-separated,
+PMC12461651,Matsumoto,2025,none_reported,experimental_prospective,none,image_or_organoid_only,80/20 split; then new iPSC lines HC06/409B2 induced and LHX3 qPCR confirmed predictions,
+PMC12467187,Yang,2025,external_dataset,internal_split_or_cv,none,image_or_organoid_only,Random 8:1:1 train/val/test split of two mouse organoid image datasets,
+PMC12481549,Paul,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,YOLOv5/SVM sorting purity measured on new samples; no train/test split described,
+PMC12504613,Diosdi,2025,none_reported,none_reported,none,unclear,AI selection/analysis software; no quantitative ML evaluation in excerpts,
+PMC12529805,Kang,2025,internal_split_or_cv,internal_split_or_cv,none,unclear,Transcriptomic cluster predictor in 24 patients; validation details not in excerpts,
+PMC12538981,Qin,2025,internal_split_or_cv,internal_split_or_cv,none,unclear,Segmentation vs baselines on curated 1153-image dataset; split by source not described,
+PMC12558486,Demchenko,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,U-Net tested on 41 held-out images vs consensus manual masks,
+PMC12559411,Zhang,2025,experimental_prospective,none_reported,none,unclear,AlphaFold structure prediction; no model performance evaluation on held-out data,
+PMC12589769,Mencattini,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,"First 2.5 min train, last 2.5 min test per well; same organoids",
+PMC12637260,Kim,2026,none_reported,none_reported,none,unclear,ML drug-response model on five organoid pairs; no validation shown in excerpts,
+PMC12650739,Alani,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,U-Net tested on held-out 128x128 test images vs ground-truth masks; same dataset,internal_split_or_cv
+PMC12657682,Tian,2025,none_reported,internal_split_or_cv,clinical,unclear,"113 ML combos; training union of three patient datasets, each also used as validation",
+PMC12661309,Turpin-Moreno,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,ImPheNet classifies genotype from live imaging; split details not in excerpts,
+PMC12683417,Kwok,2025,none_reported,experimental_prospective,none,unclear,Deep-learning drug predictions compared with in vitro sensitivity assays in LCOs; feasibility only,
+PMC12745998,George,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,70/30 split plus 10-fold CV on lung-on-chip images,internal_split_or_cv
+PMC12768030,Wu,2026,external_dataset,external_dataset,none,batch_or_lab,"Test split then prospective multicenter validation of 179 samples, AUC 0.832",
+PMC12781996,Voitiuk,2025,none_reported,internal_split_or_cv,none,image_or_organoid_only,Leave-one-out CV of volume regression on 184 calibration images,
+PMC12787698,Yun,2025,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Accuracy 0.90-1.00 reported; split not shown; augmentation may leak; conservative,
+PMC12821805,Shi,2025,external_dataset,external_dataset,none,donor_or_patient,RF subtype classifier validated in TCGA-PAAD n=183 and 40 PDOs; details sparse,
+PMC12825330,Rogler,2026,none_reported,internal_split_or_cv,none,image_or_organoid_only,Segmentation compared with manual counts by three scientists on same imaging stacks; conservative,
+PMC12843511,Afting,2026,internal_split_or_cv,external_dataset,none,batch_or_lab,test set from completely independent experiment; leave-one-experiment-out CV,
+PMC12859458,Burnell,2025,none_reported,external_dataset,none,donor_or_patient,Tested on organoids from 3 unseen patients; mAP also reported,
+PMC12865637,Ko,2026,none_reported,experimental_prospective,none,compound,drug repurposing predicted CDK inhibitors; tested in ESCC proliferation assays,experimental_prospective
+PMC12876881,Deloria,2026,none_reported,internal_split_or_cv,none,image_or_organoid_only,XGBoost viability classifier 10-fold CV vs AO/PI ground truth,
+PMC12903562,Allgöwer,2026,none_reported,internal_split_or_cv,clinical,unclear,"ML classifiers 'high prediction accuracy' (split unstated); TNFa rise in IPMN cyst fluid, not ML test",
+PMC12970595,Woods,2026,internal_split_or_cv,internal_split_or_cv,none,unclear,70/30 split on public data; BM-MPS train day 14 test other timepoints,
+PMC13095120,Venkatesan,2026,external_dataset,external_dataset,none,batch_or_lab,Leave-study-out CV plus held-out hypothalamus datasets and organoid application,
+PMC13096141,Menacho,2026,experimental_prospective,experimental_prospective,none,batch_or_lab,47 held-out test datasets; predicted azoles rescued Leigh organoids,experimental_prospective
+PMC13107669,Guecamburu,2026,none_reported,none_reported,none,unclear,AI lamellar body quantification; no performance evaluation reported,none_reported
+PMC13121592,Sun,2026,internal_split_or_cv,internal_split_or_cv,none,unclear,Virtual vs real H&E on same sections plus pathologist scoring; split not described,
+PMC13159154,Yuan,2026,none_reported,internal_split_or_cv,clinical,image_or_organoid_only,Bright-field to fluorescence DL; chip drug response aligned with clinical outcomes; split unstated,none_reported
+PMC13159400,Zhu,2026,none_reported,none_reported,none,unclear,1D-CNN peak classification; no accuracy or held-out evaluation in excerpts,none_reported
+PMC13224076,Kim,2026,none_reported,internal_split_or_cv,none,image_or_organoid_only,YOLOv8 on 230 images augmented to 8892; likely leakage between augmented images,
+PMC13233857,Leszczynska,2026,internal_split_or_cv,internal_split_or_cv,clinical,unclear,ML on EV proteins AUROC 0.97 in 38 individuals; split not described; patient serum compared,internal_split_or_cv
+PMC13247413,Kahveci,2026,none_reported,internal_split_or_cv,none,image_or_organoid_only,"Five-fold cross-validation for classification, U-Net and detection; single lab",
+PMC13262258,Doerfler,2025,internal_split_or_cv,external_dataset,none,donor_or_patient,validated on WSIs from entirely different patients; AUC 0.88,external_dataset
+PMC13279892,Shao,2026,none_reported,internal_split_or_cv,none,image_or_organoid_only,OrganoSeg segmentation compared to other models; metrics not in excerpts; conservative,
+PMC13348641,Huang,2026,experimental_prospective,experimental_prospective,none,unclear,RF/LASSO hub genes then tested in isogenic iPSC organoids (REST/DCX); no held-out ML eval,
+PMC13460407,Zhang,2026,none_reported,internal_split_or_cv,none,image_or_organoid_only,Deep learning classification 97% accuracy of vibration signals; same-lab data split,
+PMC13464642,Georgiev,2026,none_reported,none_reported,none,unclear,Unsupervised autoencoder unmixing; qualitative comparison to fluorescence only,
+PMC13509341,Kweon,2026,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Cross-validated TabNet on dome-level features; 2 donors; no external set,
+PMC13547403,Li,2026,none_reported,external_dataset,none,donor_or_patient,Trained on P1-P2; tested on P3-P7 patients incl. different SD-OCT system,
+PMC13548813,Matov,2025,none_reported,none_reported,none,unclear,Computer vision tracking; no ML evaluation on held-out data,
+PMC13561307,Coser,2026,none_reported,external_dataset,none,batch_or_lab,Benchmarked on six public independent scRNA-seq datasets; 100 curated queries,
+PMC13563877,Ferreira,2026,none_reported,none_reported,none,unclear,"Pretrained OrganoIDNet used inference-only, not retrained or revalidated",
+PMC13588199,Cadavid,2026,external_dataset,internal_split_or_cv,clinical,unclear,PLSR predicts patient MASLD/fibrosis scores; held-out evaluation not shown in excerpts (conservative),
+PMC13590075,Zha,2026,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Held-out FOVs from same 4 specimens; authors state proof-of-concept,
+PMC13611389,Bao,2026,internal_split_or_cv,external_dataset,none,batch_or_lab,leave-one-batch-out across six culture batches (single lab); AUC 0.836,
+PMC13672102,Qi,2026,none_reported,none_reported,none,unclear,Biological-age ML model mentioned; no validation in excerpts,
+PMC6092482,Williamson,2018,none_reported,none_reported,none,unclear,CellProfiler OrganoidMorph filter; no ML model validation,
+PMC6713702,Kassis,2019,none_reported,internal_split_or_cv,none,image_or_organoid_only,Random train/test split of patches; test 1135 boxes; mAP 80%,
+PMC7203117,Mencattini,2020,none_reported,internal_split_or_cv,none,batch_or_lab,Two-fold test splitting whole videos/experiments; replicate experiments; no external lab,
+PMC7237217,Hailstone,2020,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Random forest detection vs manual annotation; excerpts lack test details; conservative,
+PMC7350982,Kegeles,2020,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,1209 images split 64/16/20; test AUC 0.91; beats human experts,internal_split_or_cv
+PMC7435055,Ballweg,2020,none_reported,none_reported,none,unclear,Dynamic model fits to same data; no held-out ML evaluation shown in excerpt,
+PMC7580893,Kok,2020,none_reported,internal_split_or_cv,none,image_or_organoid_only,Trained 9 organoids; tested on 8 separate organoids vs manual tracking,
+PMC7599252,Kong,2020,clinical_outcome,clinical_outcome,both,donor_or_patient,Organoid-trained model predicted survival in 114 CRC 5FU and 77 bladder cisplatin patients,
+PMC7614132,Lindholm,2022,none_reported,internal_split_or_cv,animal,image_or_organoid_only,CNN output vs manually verified classification; cytokine organoids compared to mouse infection RNA-seq,internal_split_or_cv
+PMC7723053,Albanese,2020,none_reported,internal_split_or_cv,none,image_or_organoid_only,nuclear detection 90% accuracy vs annotation; excerpt limited,
+PMC7932518,Mergenthaler,2021,none_reported,internal_split_or_cv,none,unclear,Phindr3D RF classification and EC50 comparison on reference dataset; no external set,
+PMC8345202,Park,2021,clinical_outcome,clinical_outcome,clinical,unclear,Random forest on organoid radioresponse predicts patient TRG; 33 patients; split unclear,
+PMC8397508,Sun,2021,none_reported,none_reported,none,unclear,Unsupervised K-means++ on MPI; no quantitative evaluation,none_reported
+PMC8448508,Devall,2021,none_reported,none_reported,clinical,unclear,ML deconvolution not evaluated; organoid DEGs replicated 87/738 in human biopsy cohort,
+PMC8451065,Gritti,2021,none_reported,internal_split_or_cv,none,image_or_organoid_only,Trained on 3 images; tested on 88 other images vs CellProfiler/OrganoSeg,
+PMC8543395,McAleer,2021,none_reported,internal_split_or_cv,none,image_or_organoid_only,72 skin/31 retina images held out; 5-fold CV by image number,
+PMC8724556,Spiller,2021,none_reported,internal_split_or_cv,none,image_or_organoid_only,18 held-out PDO images vs expert consensus and DRAQ7; same biobank,
+PMC9054831,Feng,2022,none_reported,none_reported,none,unclear,label transfer model validation not shown in excerpts; coded conservatively,
+PMC9238268,Tubbesing,2022,none_reported,none_reported,none,unclear,ML classification of Raman spectra mentioned; no split described in excerpt; conservative,
+PMC9266781,Becker,2022,none_reported,none_reported,none,unclear,NN feature selection on spectra; no held-out accuracy in excerpts; conservative,
+PMC9357621,Okamoto,2022,none_reported,internal_split_or_cv,none,image_or_organoid_only,Test patches vs 3 human referees; train images separate; same lab,internal_split_or_cv
+PMC9388485,de Medeiros,2022,none_reported,internal_split_or_cv,none,image_or_organoid_only,RDCNet output compared with randomly selected hand-annotated volumes,internal_split_or_cv
+PMC9481922,Wang,2022,none_reported,none_reported,none,unclear,ML imaging pipeline described; no held-out evaluation in excerpts; conservative,
+PMC9500000,Metzger,2022,none_reported,experimental_prospective,none,image_or_organoid_only,CNN WT vs HD; screen hits re-validated in 500um neuruloids,
+PMC9645660,Matthews,2022,external_dataset,external_dataset,none,image_or_organoid_only,tested on unseen PDAC images plus lung/colon/ACC/mouse organoids; IOU,
+PMC9794595,Wang,2022,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,RDAU-Net segmentation vs manual labels on 200 images train/test,internal_split_or_cv
+PMC9902733,Park,2023,internal_split_or_cv,internal_split_or_cv,none,image_or_organoid_only,Five-fold CV on ~150 organoids; CNN compared with expert classifiers,

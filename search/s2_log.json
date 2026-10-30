@@ -1,0 +1,8 @@
+{
+ "database": "Semantic Scholar bulk search API",
+ "query": "(organoid | organoids | \"organ-on-a-chip\" | \"organ-on-chip\" | \"organs-on-chips\" | \"organs-on-a-chip\" | \"microphysiological system\" | \"microphysiological systems\" | \"tissue chip\" | \"tissue chips\") + (\"machine learning\" | \"deep learning\" | \"artificial intelligence\" | \"neural network\" | \"neural networks\" | convolutional | \"random forest\" | transformer | transformers | \"computer vision\")",
+ "years": "2015-2026",
+ "date": "2026-10-31",
+ "hits": 1752,
+ "total_reported": 1752
+}

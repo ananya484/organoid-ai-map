@@ -1,0 +1,88 @@
+id,include,exclude_reason,system,tissue,tumour,patient_derived,data_type,ai_task,ai_family,application,validation,human_relevance_benchmark,n_samples,open_code_or_data,regulatory_mention,notes
+S2:e7b00e49425da2875243dd35fe4f4f4faf932801,yes,,organoid,multi,no,unclear,brightfield_image,segmentation_detection;tracking_timelapse,cnn;transformer_or_foundation,method_development,internal_split_or_cv,none,unclear,unclear,no,Modality inferred; tissue unstated
+S2:22fe70faff109d10ae4da870dde33dee3a5c93c9,no,not_primary,,,,,,,,,,,,,,Research highlight of another study
+S2:c24381f698d4cb04425fd956ae4c6e2c66ba5962,no,no_ai,,,,,,,,,,,,,,OECT dopamine sensor; no ML
+S2:e67fb671f7b5a122b24278cd1d45157cf8ac22b8,no,not_primary,,,,,,,,,,,,,,News piece on funding
+S2:de28e1fb073edf9a9f9027c4f2f011c48694ea1d,no,not_primary,,,,,,,,,,,,,,Review
+S2:e450ac3b8d7ea6213e18fdc108e5f2f9dd343456,no,other,,,,,,,,,,,,,,ML applied to patient scRNAseq not organoid data; PDOs only for HTS validation
+S2:9649457263521b3bc2ee33bcdff099e33b00599b,yes,,organoid,brain,no,unclear,transcriptomics,omics_analysis,classical_ml,disease_modelling,external_dataset,none,unclear,unclear,no,AD-mutant brain organoids; validated in patient transcriptomes
+S2:6e1c44530c0831ad4d9f3940357f3da72c5c9ff9,no,not_primary,,,,,,,,,,,,,,Proposed framework/perspective
+S2:23592e17d71672d99b4478b1c18f57a911c3a4b9,no,no_organoid_or_chip,,,,,,,,,,,,,,CNN on human kidney tissue nuclei; no organoids in abstract
+S2:8c0b738d22c56ccfade3b7384eee1ddad44abed4,no,not_primary,,,,,,,,,,,,,,Policy analysis
+S2:212d3f5c17a6082bf3578a5bd1bfc6cb5f000b45,no,no_organoid_or_chip,,,,,,,,,,,,,,2D cultured cortical cells
+S2:0feb67688f3c88488d8a71f525738ff58f69d536,no,no_ai,,,,,,,,,,,,,,
+S2:a4983340191cfe0744edcf348c0d3dbc7d661b99,no,organoid_intelligence_computing,,,,,,,,,,,,,,OI biocomputing vision article
+S2:c61a21b9ac2f76e5c6eb12267f2c01d9165908c0,no,not_primary,,,,,,,,,,,,,,Review of NAM validation
+S2:ffcd77eaf09201d32f4dec4083a444a736e45a3b,no,no_ai,,,,,,,,,,,,,,Tissue clearing method
+S2:a4bc0153594772770460281b3b3037713ad744b4,yes,,organoid,multi,yes,yes,brightfield_image,segmentation_detection,unclear,drug_efficacy_screening,none_reported,none,10 PDOs,unclear,no,Label-free live imaging with AI computer vision; conference abstract
+S2:56cbc3580d38b58d2fe9efc0f2c7ce1f04d79420,yes,,organoid,brain,no,no,electrophysiology,signal_analysis,classical_ml;cnn,disease_modelling,internal_split_or_cv,none,unclear,unclear,no,SVM and CNN on LFP; CHD2-mutant hESC organoids
+S2:6a2999d639fe80a6da11a176b22dea10493087bb,no,not_primary,,,,,,,,,,,,,,Philosophy volume
+S2:b2a7034dfd103f3e686b8ca6b87d2dc7d6f3d53f,yes,,organoid,intestine_colon,no,unclear,brightfield_image,morphology_classification;segmentation_detection,cnn;classical_ml,method_development,internal_split_or_cv,none,840 images,unclear,no,YOLOv10 + ResNet50 + LR/RF/XGBoost; microscopy type inferred
+S2:3a5c8882547cb30c11b08ef7cf352e1a91dfeab6,yes,,organoid,tumour_other,yes,unclear,brightfield_image,segmentation_detection,unclear,drug_efficacy_screening,none_reported,none,unclear,unclear,no,Mostly bioprinted cell-line 3D models; pilot PDOs; ML invasion quantification
+S2:af821982279456162e2266059ab506809a4477d4,yes,,organ_on_chip,bone_cartilage,no,no,fluorescence_image,morphology_classification,other_deep,drug_efficacy_screening,none_reported,none,unclear,unclear,no,Mouse cells; beta-catenin translocation deep learning analysis
+S2:833d43c48391a439510e4139b9db45b97b45b16a,yes,,organoid,liver,yes,yes,multimodal,other,classical_ml,personalised_medicine,clinical_outcome,clinical,61 PDOs; 82 patients,unclear,no,XGBoost on PDO sensitivity plus clinical factors predicts recurrence
+S2:c406ba2d6afc8981c805336445418ba02491160c,yes,,organoid,brain,yes,yes,fluorescence_image,segmentation_detection,unclear,disease_modelling,none_reported,none,unclear,unclear,no,ML synapse quantification in GBM-cortical organoid transplant; abstract
+S2:3fc9e0c93f26d05e14da12426a581b43a95620dd,yes,,organoid,multi,yes,yes,multimodal,drug_response_prediction,unclear,drug_efficacy_screening,internal_split_or_cv,none,135 PDOs,unclear,no,CRC and PDAC PDOs; omics embeddings predict drug AUC incl KRAS inhibitors
+S2:18b284c216f411030b7f230b268da8505babb570,no,not_primary,,,,,,,,,,,,,,Congress abstract compilation; not organoid AI
+S2:363de99b3dec772ceabcb7168f5bdfdee6ec878f,no,other,,,,,,,,,,,,,,ML on hormone and airflow data; organ-on-chip only for validation
+S2:15fd0a4ce83951f992d162b9b16a4b1cf6957c6c,no,no_ai,,,,,,,,,,,,,,Patient WES; organoids and ML only future work
+S2:2f2d00cf2ff278525c9283f4e6033762341da14e,no,other,,,,,,,,,,,,,,CNN on pathology slides; PDOs only for drug testing
+S2:601eb9772601c14348f5e73020f4d9643854e1f1,no,other,,,,,,,,,,,,,,GNN on cell phenotypic screen; organoid only for validation
+S2:9636724503e4e4c4c2218f235467322131be5cd6,yes,,organoid,other,no,unclear,brightfield_image,segmentation_detection,cnn,method_development,internal_split_or_cv,none,unclear,unclear,no,Multi-scale conv model plus ellipse fitting for overlapping organoids
+S2:1d7939be2039ecb1c4ae4ada38f6b4f51d0575c0,no,not_primary,,,,,,,,,,,,,,Theoretical
+S2:42268dc47916ece2f4edbc1bc36697f17b8ee3cc,no,not_primary,,,,,,,,,,,,,,Review
+S2:2705133c913b34f61587f89b95289884c2085404,no,not_primary,,,,,,,,,,,,,,Review
+S2:192633811b17eec70ca41659bdd03887bfa5f8a6,yes,,organoid,lung,yes,yes,transcriptomics,omics_analysis,other_deep;llm,drug_efficacy_screening,experimental_prospective,none,unclear,unclear,no,AI target discovery; CRISPR validation in osimertinib-resistant PDOs
+S2:302d7486a4291ff6bcef0869cfb83ae041a59acf,no,other,,,,,,,,,,,,,,AI on H&E slides; PDOs only for functional validation
+S2:585aa89ec39a95cd1cbf855e79cbb4d9d3ada9b7,yes,,organoid,intestine_colon,no,unclear,fluorescence_image,tracking_timelapse,other_deep,method_development,none_reported,none,thousands of cells,unclear,no,Neural-network cell tracker with error probabilities; modality inferred
+S2:889f291b224ee888e2bf852f35f4836f490ef014,yes,,organ_on_chip,vascular,no,unclear,fluorescence_image,other,other_deep,quality_control,experimental_prospective,none,unclear,unclear,no,Chained NN vascular quality index vs measured oxygen in vascularized MPS
+S2:d4b409ec9019e6c2e4f60d2c418f45d2e966d6ab,no,not_primary,,,,,,,,,,,,,,Vision article
+S2:62c45b214fcfe110ed7115811d1cd613ba456c4c,no,not_primary,,,,,,,,,,,,,,Literature synthesis
+S2:f91c7681916909bff7607ea40eb58553d9b55be7,no,no_ai,,,,,,,,,,,,,,
+S2:baa83a1110f7646b6e6a52d8e6d3f39dad7a507b,no,not_primary,,,,,,,,,,,,,,Perspective
+S2:28d818aea7c243e2a786ae7223bafbf671387f21,no,no_organoid_or_chip,,,,,,,,,,,,,,Mean-field simulation only
+S2:bf8188cf1637ab9b5b659ca62af741c31f2b1cf6,no,not_primary,,,,,,,,,,,,,,Editorial
+S2:93be54ac05a880c0aeeb811f1a1ac2f43f43467f,no,no_organoid_or_chip,,,,,,,,,,,,,,In silico only; virtual brain organoid not a wet-lab system
+S2:91ddbb798ca0bd3fc98778e787b18ddf17594a4f,no,no_ai,,,,,,,,,,,,,,
+S2:61ab21ab81c2b5937adb5389b61848cd068c951e,no,no_ai,,,,,,,,,,,,,,
+S2:fb5a7dcc75e8d8ac4324aed3f56ec1de0243871e,no,organoid_intelligence_computing,,,,,,,,,,,,,,Talk abstract; bio-computation framing with DL decoding
+S2:3ff99582c00f006ac34f876bbba26a7ed83928b8,no,not_primary,,,,,,,,,,,,,,Review
+S2:c94753755f120d78ee7ed94eb898bfeb8f079231,no,organoid_intelligence_computing,,,,,,,,,,,,,,
+S2:b1e1d6b5b4fcbceba0425d7e3a7ff6ec9f695488,no,not_primary,,,,,,,,,,,,,,Review
+S2:529077977ec4ee950aed3a0d3a20d3bf604ac4a4,no,not_primary,,,,,,,,,,,,,,Interview
+S2:6db0dd42dc794570ac8f1f4fd2ee35ba277c2d4a,no,no_ai,,,,,,,,,,,,,,
+S2:e1663410b966b6efc1e597b6c91390dd728d3b97,no,no_organoid_or_chip,,,,,,,,,,,,,,Cancer spheroid segmentation; not called organoids
+S2:8d736b39a13077bdd82866f26347db12efb4539d,yes,,organ_on_chip,stomach,yes,yes,fluorescence_image,morphology_classification,transformer_or_foundation,drug_efficacy_screening,none_reported,clinical,unclear,unclear,yes,ViT deep phenotyping of vascularized gastric tumour MPS; mirrors clinical anti-angiogenic effect
+S2:62c63b3de0e6196b03c343a22dfccaed9a9a4db8,yes,,organoid,multi,yes,yes,fluorescence_image,drug_response_prediction,other_deep,personalised_medicine,none_reported,none,unclear,unclear,no,Deep learning on 3D confocal stacks; comparison to clinical trial planned
+S2:d63cc0c93d20f063ca4235c88a2fd9d201c18268,yes,,organoid,intestine_colon,yes,yes,brightfield_image,morphology_classification;segmentation_detection,other_deep;classical_ml,drug_efficacy_screening,none_reported,none,unclear,unclear,no,DL segmentation then random forest; T cell killing assay in CRC PDOs
+S2:806ca6bb4b8bb7c4fe2c12768172a80e28ff28b2,no,no_ai,,,,,,,,,,,,,,
+S2:5aa078ff9f1d788b02bd346361c1051cddf49a63,no,other,,,,,,,,,,,,,,AlphaGenome on sequences; organoids only for functional testing
+S2:afeb1105a350a52e6afbb6152ec6f83f8d1e1bdd,no,not_primary,,,,,,,,,,,,,,Bibliometric analysis
+S2:417447ea57e32086f8cc2713f35e946d6685f5c1,yes,,organoid,multi,yes,yes,drug_response_values,other,unclear,drug_efficacy_screening,none_reported,none,46 patient-derived and 16 engineered models,unclear,no,Bioprinted single-organoid screening with ML; ML role briefly stated
+S2:20655e140f75026654cf47fb10a521524699346f,yes,,organoid,tumour_other,yes,yes,transcriptomics,drug_response_prediction,classical_ml,drug_efficacy_screening,external_dataset,animal,unclear,unclear,no,Extra-trees on PDO RNA-seq; LOO-CV; predicted PDX responses
+S2:51f988a9278301050f81b5828818f4dbf31676f4,yes,,organ_on_chip,other,no,no,fluorescence_image,segmentation_detection;signal_analysis,unclear,device_or_protocol_design,none_reported,none,unclear,unclear,no,ML recognises DNA-hydrogel pH sensors in time-lapse; embryoid bodies monitored
+S2:e91b255cf3410ea18d83abe7347c830b2da8705c,yes,,organoid,brain,no,unclear,fluorescence_image,segmentation_detection,unclear,method_development,none_reported,none,unclear,unclear,no,WT vs mutant cerebral organoid slices; deep learning quantification
+S2:04d2c4f1a0477b8248da70e6512e202fb58ed37a,no,no_ai,,,,,,,,,,,,,,
+S2:c33ba619782f2f765ee3c47b1b352c14e9e8c248,no,no_ai,,,,,,,,,,,,,,
+S2:13608d033c54114835fd4735f70a2e5c4b1229c9,no,other,,,,,,,,,,,,,,AI on pathology sections; organoids only for co-culture mechanism
+S2:f9a98c596f89644a706fb5d433524e52f828f49f,no,not_primary,,,,,,,,,,,,,,Opinion article
+S2:a444c2ec1e930f857c4a006202f0c402cc732660,no,no_ai,,,,,,,,,,,,,,
+S2:bbeb61a7d547c8a138ceea85ba2a8520d87b6b52,no,not_primary,,,,,,,,,,,,,,Review
+S2:7087c0b300b94b35ca078ad700e7cb31156ac83d,yes,,organoid,brain,no,unclear,brightfield_image,generative_or_llm,other_deep,method_development,none_reported,none,unclear,unclear,no,GAN-generated synthetic brightfield organoid images; small dataset
+S2:ce41f938150556c7adccee8f0d2b7dbf17033f87,yes,,organoid,other,no,unclear,other_image,segmentation_detection,unclear,method_development,none_reported,none,unclear,unclear,no,ML-assisted image analysis for micropillar cytokine detection; tissue unstated
+S2:0d2733a997a36901ffbc103a2ec625791d8a228c,no,not_primary,,,,,,,,,,,,,,Theoretical
+S2:cb25c68b886ba72e087280f7dd00755571c2ea3b,yes,,organoid,intestine_colon,yes,yes,other_image,morphology_classification,transformer_or_foundation;classical_ml,quality_control,internal_split_or_cv,none,17 patients; 26 slides,unclear,no,UNI foundation features + LDA; benign vs malignant organoid H&E slides
+S2:c384505ba8b1f36c6554cc44749bb5a8aa0bd9aa,no,no_ai,,,,,,,,,,,,,,
+S2:f723c748fde1c508cdf05c8a6a966fb9b222caec,no,not_primary,,,,,,,,,,,,,,Ethics essay
+S2:1061f8e8fed551e4244e7910a426c7e20de7e674,no,no_ai,,,,,,,,,,,,,,
+S2:ad8a1822a924c332b9a0f55e5a280fcd7d0287a7,no,no_ai,,,,,,,,,,,,,,
+S2:97bc9ff058ff29ed9fc3940e9acbd6fd13c57152,yes,,organ_on_chip,heart,no,unclear,other_image,morphology_classification,cnn,disease_modelling,external_dataset,none,111110 videos,unclear,no,cEP-Net on EP videos; also applied to in vivo AF mapping videos
+S2:0d8f8ee4b92f8a7ee394c43ee6559160eba54491,no,not_primary,,,,,,,,,,,,,,Commentary
+S2:3e671e8d71f288b3d55a53d8a237299e6dff6f03,no,not_primary,,,,,,,,,,,,,,Review
+S2:c6c57f32489355ed362bb1e23d99458a9b64f725,no,no_ai,,,,,,,,,,,,,,Gene-panel similarity score; no ML stated
+S2:f381f95bedd0a628d4020d4f9f4a741508adbfbe,yes,,organoid,reproductive,yes,yes,fluorescence_image,drug_response_prediction,other_deep,personalised_medicine,none_reported,none,unclear,unclear,no,Deep learning on 3D confocal stacks planned vs trial responses; HGSC PDOs
+S2:cde51ed7de455594c763b11e8d3c848940bdaa13,no,other,,,,,,,,,,,,,,AI on patient tissue images; organoid media only for B cell assay
+S2:d23678ab77681ac1f2c46c1e6d9b9824f918c99b,no,no_ai,,,,,,,,,,,,,,
+S2:e6ce98e0bacaaa68e81361f82c20779316ee6721,yes,,organoid,multi,yes,unclear,multimodal,omics_analysis,other_deep,drug_efficacy_screening,internal_split_or_cv,none,unclear,unclear,no,VAE batch correction across cell lines organoids PDX tumours; organoids one of several systems
+S2:b93924aa6d3c616d99e6c9689b9d0dd2c347a401,yes,,organoid,liver,no,unclear,brightfield_image,segmentation_detection,cnn,method_development,internal_split_or_cv,none,1000 images,unclear,no,Self-supervised vs supervised U-Net; liver progenitor organoids
+S2:cfa53e4d8ec0172c5236e945d5ddc21c89fff81f,yes,,organoid,multi,no,unclear,multimodal,omics_analysis,unclear,disease_modelling,external_dataset,none,thousands of cells,unclear,no,Brain and placenta organoids; multimodal ML for gene regulatory networks

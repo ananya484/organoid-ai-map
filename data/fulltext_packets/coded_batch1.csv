@@ -1,0 +1,23 @@
+pmcid,validation_ft,human_relevance_benchmark_ft,unit_independence,ft_notes
+PMC12558486,internal_split_or_cv,none,image_or_organoid_only,U-Net tested on 41 held-out images vs consensus manual masks
+PMC13588199,internal_split_or_cv,clinical,unclear,PLSR predicts patient MASLD/fibrosis scores; held-out evaluation not shown in excerpts (conservative)
+PMC11148721,none_reported,none,unclear,DETECTOR ML tool; no quantitative model evaluation in excerpts
+PMC12314525,none_reported,none,unclear,ML used for analysis; no held-out evaluation in excerpts
+PMC8451065,internal_split_or_cv,none,image_or_organoid_only,Trained on 3 images; tested on 88 other images vs CellProfiler/OrganoSeg
+PMC12120697,none_reported,none,unclear,Five ML algorithms compared; train/test split not shown in excerpts (conservative)
+PMC6092482,none_reported,none,unclear,CellProfiler OrganoidMorph filter; no ML model validation
+PMC12859458,external_dataset,none,donor_or_patient,Tested on organoids from 3 unseen patients; mAP also reported
+PMC8724556,internal_split_or_cv,none,image_or_organoid_only,18 held-out PDO images vs expert consensus and DRAQ7; same biobank
+PMC10014309,experimental_prospective,none,unclear,Alignment framework; hub genes validated by immunofluorescence; no held-out ML test
+PMC10130530,internal_split_or_cv,none,unclear,Six-fold CV on 24 OCT volumes from 10 samples; split unit unclear
+PMC7614132,internal_split_or_cv,animal,image_or_organoid_only,CNN output vs manually verified classification; cytokine organoids compared to mouse infection RNA-seq
+PMC8397508,none_reported,none,unclear,Unsupervised K-means++ on MPI; no quantitative evaluation
+PMC12970595,internal_split_or_cv,none,unclear,70/30 split on public data; BM-MPS train day 14 test other timepoints
+PMC13672102,none_reported,none,unclear,Biological-age ML model mentioned; no validation in excerpts
+PMC10164950,internal_split_or_cv,none,image_or_organoid_only,Segmentation metrics on 200-image dataset; split details not shown
+PMC8345202,clinical_outcome,clinical,unclear,Random forest on organoid radioresponse predicts patient TRG; 33 patients; split unclear
+PMC7932518,internal_split_or_cv,none,unclear,Phindr3D RF classification and EC50 comparison on reference dataset; no external set
+PMC11814327,internal_split_or_cv,none,image_or_organoid_only,YOLOv8-based detector mAP50 87.5% on organoid image dataset
+PMC13464642,none_reported,none,unclear,Unsupervised autoencoder unmixing; qualitative comparison to fluorescence only
+PMC13348641,experimental_prospective,none,unclear,RF/LASSO hub genes then tested in isogenic iPSC organoids (REST/DCX); no held-out ML eval
+PMC12683417,experimental_prospective,none,unclear,Deep-learning drug predictions compared with in vitro sensitivity assays in LCOs; feasibility only

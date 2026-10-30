@@ -1,0 +1,88 @@
+id,include,exclude_reason,system,tissue,tumour,patient_derived,data_type,ai_task,ai_family,application,validation,human_relevance_benchmark,n_samples,open_code_or_data,regulatory_mention,notes
+S2:d04f6b70ba36ca6bdecf1ece254a7da2cd8bdc7c,yes,,organ_on_chip,breast,yes,no,other,omics_analysis,classical_ml,disease_modelling,none_reported,none,unclear,unclear,no,k-means on breast tumour MPS cell-line marker data
+S2:0be80b86f0fe12e25801090d82237c63742b37ed,no,no_ai,,,,,,,,,,,,,,genetic algorithm fitting of spiking network model; mechanistic
+S2:5995c14a9b633741b051a4b3689d941351f782c9,yes,,organoid,tumour_other,yes,yes,transcriptomics,other,cnn,personalised_medicine,none_reported,none,2 organoid PDX models,unclear,no,conference abstract; CNN neoepitope prediction; organoid use peripheral
+S2:4cd9e084f0dd6d3ff73cd05f0a691072599d72cf,no,no_organoid_or_chip,,,,,,,,,,,,,,generative model on mostly cell line RNA-seq
+S2:f49404ba7245a070bda66c675aa88aed8084a74a,no,no_ai,,,,,,,,,,,,,,OOC image dataset only; no model applied
+S2:b3367b1d63144419271aa25610d319f4ab903e62,no,no_organoid_or_chip,,,,,,,,,,,,,,PubChem NMR ML; chip only mentioned as envisioned data source
+S2:d766871b4842eced49943ef51ddf9b5df641a2de,no,not_primary,,,,,,,,,,,,,,essay on organoids and consciousness
+S2:fb278e248756d69f6b75c2236c5fe16b2dcb36c3,no,no_organoid_or_chip,,,,,,,,,,,,,,in silico spiking network; organoid only a prediction
+S2:e1a4260cd7cda078f8c15165d9caa1234a293097,no,other,,,,,,,,,,,,,,DL applied to ultrasound not organoid data
+S2:a42c7fbe37073acc96a8b8fc721b70d00bce5648,yes,,organoid,breast,yes,yes,multimodal,drug_response_prediction,other_deep,personalised_medicine,internal_split_or_cv,animal,50 PDX models,unclear,no,ScreenDL; PDX-derived organoid screening data; conference abstract
+S2:a9a093517230eb430362dc272b6896031e91661d,yes,,organoid,brain,yes,yes,multimodal,drug_response_prediction,classical_ml,personalised_medicine,experimental_prospective,none,unclear,unclear,no,AI4Med glioma PDO IC50 ensemble; validated with organoid screens
+S2:427869be30b7b3f78d92e19747a2de5b3acffbaf,no,no_organoid_or_chip,,,,,,,,,,,,,,GNN on multicellular collectives; organoids only context
+S2:b4541ef5ccfc28e0dcded701c0795478aa5d2871,no,not_primary,,,,,,,,,,,,,,framework review
+S2:728435136937ec4d077b9660a971fcae34d77700,yes,,organoid,lung,no,unclear,brightfield_image,segmentation_detection,cnn,method_development,internal_split_or_cv,none,unclear,unclear,no,Orga-Dete YOLOv11n detection
+S2:2a8f32ec378de74704c035c07edb9d8bd98a9f06,yes,,organoid,lung,yes,yes,brightfield_image,segmentation_detection,cnn,method_development,internal_split_or_cv,none,unclear,unclear,no,LiveOrganoid dataset introduced; graph reasoning segmentation
+S2:fddf99ec3d92900c38b68cbc8b94f2929e664b4b,yes,,organoid,multi,yes,unclear,transcriptomics,omics_analysis,transformer_or_foundation,method_development,internal_split_or_cv,none,714 organoid samples,unclear,no,RNA foundation model; organoids among 130k samples; conference abstract
+S2:3d27476482d150a1fecd3be3389328972374b9fc,no,no_ai,,,,,,,,,,,,,,
+S2:a1547f507f915d678e892bfee082a35d8cb79d8f,no,not_primary,,,,,,,,,,,,,,conference abstract text is only intro; no results
+S2:90f66761faf194f3c845fc173499270dcf9cbc91,no,no_organoid_or_chip,,,,,,,,,,,,,,neuromorphic UV sensor; organ-on-chip wording only
+S2:7c4b44b1e47e7b71a35504bc6aa781e953106ea8,no,other,,,,,,,,,,,,,,ML on TCGA; organoids only for functional validation
+S2:5187052712da3c64a72d7e80b9d4a02166f35893,no,other,,,,,,,,,,,,,,ML on CT radiomics; organoids not analysed with ML
+S2:8f37d258e7fec02b58690baac1c4ad1a1338017d,yes,,organoid,intestine_colon,no,unclear,brightfield_image,segmentation_detection,cnn,quality_control,internal_split_or_cv,none,840 images; 23000 organoids,unclear,no,YOLOv10 plus ResNet50 hybrid classifiers
+S2:18f5f8d344a3f628ff6f791471664fce23963e73,no,no_ai,,,,,,,,,,,,,,ML only mentioned as future use
+S2:5dfcba0d69339c46ff6faddd5e5f2585646bae64,yes,,organoid,lung,yes,yes,transcriptomics,omics_analysis,other_deep,drug_efficacy_screening,experimental_prospective,none,unclear,unclear,no,AI target discovery; PDO CRISPR validation; conference abstract
+S2:a7a87bf19de7752529011ba7a007c9d5ef0c6afb,no,no_organoid_or_chip,,,,,,,,,,,,,,neuromorphic sensor
+S2:6d9c559b0c6e12a489a21a1c35a206b350e6096d,no,no_ai,,,,,,,,,,,,,,
+S2:0225874b92e5860c5258589ff04dff3fdd1302bc,no,no_ai,,,,,,,,,,,,,,
+S2:0577cfd3155a7a66d89cff76645a273955a12c7e,no,no_organoid_or_chip,,,,,,,,,,,,,,3D cell line cultures and spheroids; ML imaging analysis
+S2:6018c91d678d632fba56c6c6ecd8d4a2e4cccafd,no,no_ai,,,,,,,,,,,,,,
+S2:3433be5e60bb0ad68b7362191ef8bf6bf38d646b,no,no_ai,,,,,,,,,,,,,,ML only planned
+S2:c8be1e427649889c11ab8512b552ceffebf719f6,no,no_ai,,,,,,,,,,,,,,barcoded tracing plus scRNA-seq; no learned model
+S2:3bb0abbd34c6ed8e63a55ee1105baa1ae6bc8178,yes,,organoid,brain,no,unclear,electrophysiology,signal_analysis,transformer_or_foundation,disease_modelling,external_dataset,none,900 hours MEA recordings,unclear,no,PULSE foundation model; held-out 16p11.2 organoids; also closed-loop task
+S2:dcf5149a0337c8bb52120675ff937ed05d39a2d8,no,no_organoid_or_chip,,,,,,,,,,,,,,dataset package; organoids minor and no ML applied
+S2:be042a524d325aca62a6f4dc39d778c79ad8c948,yes,,organoid,breast,yes,unclear,fluorescence_image,segmentation_detection,cnn,drug_efficacy_screening,internal_split_or_cv,none,74450 organoids,unclear,no,Cellos StarDist-3D nuclei; conference abstract
+S2:5a5e22cb0b560b5c34832027ffccc947dda1ce65,no,no_ai,,,,,,,,,,,,,,
+S2:250334295076a65baf3281c4f796beecdb223ce1,no,not_primary,,,,,,,,,,,,,,talk abstract
+S2:3f03bf58c6843f7cac97f91abb284d1b8f27586b,yes,,organoid,intestine_colon,no,unclear,other_image,segmentation_detection,cnn,method_development,internal_split_or_cv,none,unclear,unclear,no,detector calibration with multi-rater labels; colorectal organoids
+S2:d3ce03e0c36246ea106dca18a0d0991e0a9d405f,no,no_organoid_or_chip,,,,,,,,,,,,,,particle manipulation with computer vision
+S2:32151062bf437ebb47b400de725c3f020cf6b3f1,yes,,organ_on_chip,vascular,no,no,other_image,segmentation_detection,cnn,method_development,none_reported,none,unclear,unclear,no,leukocyte trafficking segmentation in MPS
+S2:cfc16f9af88d5f4f849245cd177a01d6b36ffe0f,no,no_ai,,,,,,,,,,,,,,
+S2:d9983a45d52977622bfa11f8c175a901571d90ee,yes,,organ_on_chip,other,no,unclear,other_image,generative_or_llm,other_deep,method_development,internal_split_or_cv,none,unclear,unclear,no,LoRA diffusion augmentation; EfficientNetB7; no accuracy gain
+S2:a10e109f969a9654cdd6164a72c36a2537cf2c5f,yes,,organoid,other,no,unclear,other_image,segmentation_detection,transformer_or_foundation,method_development,internal_split_or_cv,none,unclear,yes,no,WLTA-Net Swin 3D segmentation; organoid among datasets
+S2:edd5affea1d704d17c179a14f406ebb31c62a9ba,no,no_ai,,,,,,,,,,,,,,mechanical model only
+S2:5a9f3db6573fd7e07cf68c254d12974a2473c265,yes,,organoid,brain,no,unclear,electrophysiology,generative_or_llm,transformer_or_foundation,method_development,internal_split_or_cv,none,31 assays,unclear,no,VQ-autoencoder plus masked transformer; organoids and hippocampal slices
+S2:8d44493b0902c87bab9657d93a3ce59824a8e11a,no,no_ai,,,,,,,,,,,,,,
+S2:9ad4a5b9ec39cf60359dd9db131c40ece79bd4f5,no,no_ai,,,,,,,,,,,,,,ML method not stated; scRNA-seq integration only
+S2:793433c00a3fc7a41e038e08e74a604af5e7a37b,no,not_primary,,,,,,,,,,,,,,review
+S2:f58a0b1991a2bcf5897190118a12a847af1d5f3f,no,not_primary,,,,,,,,,,,,,,grant/protocol description
+S2:eafefe4a19c1eed9fbe60a8d420582a0881e71cc,no,not_primary,,,,,,,,,,,,,,perspective
+S2:7a930906acfed829b10b55f2d0ff7f7ff37d8ecd,no,no_organoid_or_chip,,,,,,,,,,,,,,PLS on biopolymer matrices; organoids envisioned
+S2:739402d83d4aedf33dee869a368ea875c3ab67c0,yes,,organoid,brain,no,yes,multimodal,other,transformer_or_foundation,disease_modelling,clinical_outcome,clinical,610524 patients,unclear,no,PROTON graph transformer; organoid proteomics validation is one arm
+S2:b56e14d67245dd0d98c7ef2682acc8b7094edc2a,no,no_ai,,,,,,,,,,,,,,
+S2:fd3c7c7bc42fdeeae05d44bfb9e94b25cadd2665,no,no_ai,,,,,,,,,,,,,,
+S2:8d54519a6e442d9cebc34a50a2239665f48970ba,yes,,organoid,pancreas,yes,yes,other_image,segmentation_detection,unclear,personalised_medicine,clinical_outcome,clinical,8 PDO lines,unclear,no,AI live-PDO imaging; correlation with PFS; conference abstract
+S2:ed13a21904a7d39f4e3ce9dcf75b30c74d753cef,yes,,organoid,intestine_colon,yes,yes,other,drug_response_prediction,transformer_or_foundation,method_development,internal_split_or_cv,none,unclear,unclear,no,measure-to-measure transformers; PDO CRC dataset is one application
+S2:169fba61f515df94fcd091f95d6592031cd4ed2c,no,no_organoid_or_chip,,,,,,,,,,,,,,PDX multi-omics ML; no organoids analysed
+S2:aa60c25cdf7139ac947742b34ec38db6b2960ce2,no,not_primary,,,,,,,,,,,,,,review
+S2:f4d37fbcc320dad91ddc0945c68fff1a54fd14e4,no,no_ai,,,,,,,,,,,,,,
+S2:a9b60b305effc86737b0e42e3500f80b866feaf7,yes,,organoid,breast,yes,unclear,fluorescence_image,segmentation_detection,cnn,drug_efficacy_screening,internal_split_or_cv,none,74450 organoids,unclear,no,Cellos second conference abstract; likely duplicate of 2023 abstract
+S2:3e3dc989df8065cdae8b6212974e290b36b8471f,yes,,organoid,other,yes,yes,other_image,other,unclear,drug_efficacy_screening,none_reported,none,10 PPGL tumours,unclear,no,ML growth quantification mentioned briefly; conference abstract
+S2:d7c45c462c8223378df18d8fc9f53b8af1b3599f,yes,,organoid,breast,yes,no,other_image,morphology_classification,cnn,drug_efficacy_screening,none_reported,none,unclear,unclear,no,deep nets plus nearest-neighbour on organoid morphology; EMT-reversing drug screen
+S2:3b4e3e3a40b45af19a964fd1076a4791fa36338f,no,no_ai,,,,,,,,,,,,,,
+S2:070d842dd495a0117b7d3cd130b8ce9c3883742f,no,not_primary,,,,,,,,,,,,,,perspective
+S2:118b7ee7f85779c27d0a24ade90ba7f3b5783707,yes,,organoid,tumour_other,yes,unclear,drug_response_values,drug_response_prediction,classical_ml,drug_efficacy_screening,experimental_prospective,none,3 models; 527 drugs,unclear,no,DECREASE synergy prediction then screened top hits; conference abstract
+S2:5d11e895cea0cf1e967c3e4adda2d90a1183e147,yes,,organoid,intestine_colon,yes,yes,other_omics,omics_analysis,other_deep,disease_modelling,none_reported,none,15 organoid models,unclear,no,deep learning HiC enhancement; conference abstract
+S2:942446a4becfcd8ad600435e7565cf36d13ad691,yes,,organoid,reproductive,yes,yes,transcriptomics,drug_response_prediction,classical_ml,personalised_medicine,none_reported,none,13 patients,unclear,no,linear regression models on RNA-seq; prostate PDOs
+S2:a45be3fce44bec571d961e045802b4e5b8924137,no,no_organoid_or_chip,,,,,,,,,,,,,,in silico drug design; organoids future work
+S2:f1f932d2a9adf3c54003c83d19735a5d6d4192b9,no,no_ai,,,,,,,,,,,,,,
+S2:261ff866af606ce67981bb925cc8917b9c990d00,yes,,organoid,other,yes,no,transcriptomics,omics_analysis,classical_ml,disease_modelling,none_reported,none,unclear,unclear,no,ML-guided trajectory analysis; mouse and engineered organoids; esophageal; conference abstract
+S2:360098a38bec24bbe24044d9165e48c1cf8c5f9c,no,not_primary,,,,,,,,,,,,,,opinion
+S2:2f743485e9f1bb3fd75d152a572cd35f917597e8,no,not_primary,,,,,,,,,,,,,,conceptual framework
+S2:6f159d5ff30b0d82effe8f6e7210d4adf5e50a19,no,not_primary,,,,,,,,,,,,,,review-type article
+S2:a423e08fb9f80acb4225423dd5447fb1218725bc,yes,,organoid,brain,no,unclear,fluorescence_image,other,transformer_or_foundation,method_development,none_reported,none,unclear,unclear,no,PLayer ViT interpolation for 3D confocal reconstruction
+S2:97218761e91b67ee0f727471d99539c39bcf64c3,yes,,organoid,multi,yes,yes,brightfield_image,drug_response_prediction,cnn,drug_efficacy_screening,internal_split_or_cv,none,15 PDO lines; 27 cell therapies,unclear,no,brightfield viability prediction; held-out test; conference abstract
+S2:abcc36d2a63915887551b8334d9217608dd524e4,no,not_primary,,,,,,,,,,,,,,perspective
+S2:3824884b2a924e67dfa976068d40da050d4133bc,no,no_organoid_or_chip,,,,,,,,,,,,,,cell manipulation closed loop
+S2:37659acc8bc8750a3c2f8d9b177695d9eee5fa82,no,no_ai,,,,,,,,,,,,,,
+S2:a94eaaec9c1161a6c7025631fb449eb4d7b180ce,no,not_primary,,,,,,,,,,,,,,review
+S2:6d2abe9686a4b08a7fc2d5fc7ce772c50f88fa26,no,not_primary,,,,,,,,,,,,,,book chapter review
+S2:e2a3b0a1dd1f3b48475fbc8da090980304c15cfd,no,no_ai,,,,,,,,,,,,,,
+S2:9a8d190008a399aefd1138de2c2e8acd94a9f4be,no,no_ai,,,,,,,,,,,,,,criticality analysis; no learned model
+S2:3d1977a704f5dd8cc64edcb23f656282135eb2ca,yes,,organoid,intestine_colon,no,no,brightfield_image,segmentation_detection,cnn,quality_control,internal_split_or_cv,none,50 images,unclear,no,Branched ERF-Net; mouse colon organoids; phase-contrast
+S2:d0e66a9d4448c1979adbf470cf3692163b89f988,yes,,organoid,lung,yes,yes,multimodal,drug_response_prediction,unclear,personalised_medicine,clinical_outcome,clinical,unclear,unclear,no,ML on multimodal PDO-lymphocyte data; conference abstract
+S2:5b2bb0c40e1260297ce9087c12a15983dd599c8b,no,not_primary,,,,,,,,,,,,,,review
+S2:06d10a4ef716103383bfd302d67c43de6b6aaf4f,no,not_primary,,,,,,,,,,,,,,review
+S2:ee6dc7fa5a426dd579ff595c0bfcdda528397ae9,yes,,organoid,other,yes,yes,other_image,drug_response_prediction,transformer_or_foundation,drug_efficacy_screening,internal_split_or_cv,none,unclear,unclear,no,SAM plus DINOv2 plus attention MIL on PDO time-lapse; predicts ATP
+S2:3660ae96669ba2af7f53ee33d57761b98bd5704e,no,not_primary,,,,,,,,,,,,,,book excerpt

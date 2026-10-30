@@ -1,0 +1,7 @@
+id,change
+S2:e3eafd6f,"human_relevance_benchmark animal -> none: PDX-derived organoids are the training data, no comparison with in vivo outcomes"
+S2:199bc490,"human_relevance_benchmark clinical -> none: gene signatures correlated with survival, not model predictions compared with outcomes"
+S2:a42c7fbe,"human_relevance_benchmark animal -> clinical; validation -> clinical_outcome: model applied to predict response of 50 TNBC patients"
+S2:739402d8,"include -> no (other): graph model trained on knowledge graph; organoids only confirm predictions"
+S2:8d54519a,"duplicate: meeting abstract of Le Compte et al. 2023 (same 8 PDAC organoid lines), already in the map"
+S2:8d736b39,"human_relevance_benchmark clinical -> none: recapitulates known drug effect, no comparison with patient outcomes"
