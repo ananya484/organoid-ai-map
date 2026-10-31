@@ -48,7 +48,7 @@ python code/build_browser.py
 Missed a study, or a code looks wrong? Open an issue with the DOI and the field to change. The database will be updated.
 
 ## Cite the database
-Sharma A (2026) OrganoidAI Map: a coded database of machine-learning studies on organoids and organs-on-chips (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23778313
+Sharma A (2026) OrganoidAI Map: a coded database of machine-learning studies on organoids and organs-on-chips (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.23834997
 
 ## Licence
 Data and text: CC BY 4.0. Code: MIT. See `LICENSE`.
