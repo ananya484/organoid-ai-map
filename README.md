@@ -16,6 +16,7 @@ A searchable, coded database of every primary study (2018–2026) that applied m
 | `data/codebook.md` | Screening and extraction codebook |
 | `data/extract_batch*.csv` | Every screening and extraction decision (566 records) |
 | `data/extract_qc_*` | Second and third independent coders on a 60-record sample |
+| `data/human_coding.csv` | The author's own coding of the same 60 records (agreement in `results/human_agreement.json`) |
 | `data/recheck_log.csv`, `data/duplicates.csv` | Re-checked key records; merged preprint/journal pairs |
 | `data/review_relevance_*.csv` | Relevance coding of a sample of 60 records indexed as reviews |
 | `data/fulltext_validation.csv`, `data/fulltext_packets/` | Full-text validation coding of the 127 open-access studies (instructions, both coders; extracts rebuilt from PMC by `code/fulltext_packets.py`) |
@@ -41,6 +42,7 @@ python code/build_browser.py
 ```
 
 ## Changelog
+- **v1.2.0 (31 Oct 2026):** human (author) coding of the 60-record agreement sample: inclusion kappa 0.97 against each model coder.
 - **v1.1.0 (31 Oct 2026):** full-text validation coding of the open-access studies; supplementary Semantic Scholar search; Fleiss reference added.
 - **v1.0.0 (30 Oct 2026):** first release.
 
